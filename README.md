@@ -118,5 +118,3 @@ LinkedIn fetching is deliberately out of scope for this assignment submission. T
 ## Submission
 
 - Design one-pager (export to PDF): `docs\NagamaniBuddepu_mbuddepu0827@gmail.com_Eightfold.pdf`
-- Demo Video
-'outputs'
