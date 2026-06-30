@@ -1,0 +1,39 @@
+{
+  "candidateName": "Nagamani Buddepu",
+  "contact": {
+    "email": "MBUDDEPU0827@GMAIL.COM",
+    "mobile": "+91 9398 1729 38"
+  },
+  "city": "hyderabad",
+  "state": "Telangana",
+  "country": "India",
+  "linkedinUrl": "linkedin.com/in/nagamani-buddepu-9612611a6/",
+  "githubUrl": "https://github.com/nagamanibuddepu",
+  "portfolioUrl": "https://portfolio-blue-zeta-31.vercel.app/",
+  "currentTitle": "Software Engineer Intern",
+  "skillTags": ["Python3", "ReactJS", "PostgreSQL", "Data Pipelines"],
+  "workHistory": [
+    {
+      "employer": "Infosys SpringBoard",
+      "role": "AI Intern",
+      "from": "2026-02",
+      "to": "2026-04",
+      "description": "Built data ingestion jobs and internal dashboards."
+    },
+    {
+      "employer": "Campus Labs",
+      "role": "Backend Developer",
+      "from": "2024-01",
+      "to": "2024-08",
+      "description": "Implemented APIs for student project matching."
+    }
+  ],
+  "college": [
+    {
+      "college": "MLR Institute of Technology",
+      "degree": "BTech",
+      "major": "Computer Science",
+      "graduationYear": 2027
+    }
+  ]
+}

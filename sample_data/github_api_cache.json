@@ -1,0 +1,22 @@
+{
+  "login": "mani_6264",
+  "name": "Nagamani Buddepu",
+  "email": null,
+  "html_url": "https://github.com/nagamanibuddepu",
+  "blog": null,
+  "bio": "Building small tools for data engineering and developer productivity.",
+  "repos": [
+    {
+      "name": "resume-parser-lab",
+      "language": "Python"
+    },
+    {
+      "name": "candidate-dashboard",
+      "language": "JavaScript"
+    },
+    {
+      "name": "pipeline-observer",
+      "language": "Go"
+    }
+  ]
+}
