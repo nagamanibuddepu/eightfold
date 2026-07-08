@@ -24,6 +24,15 @@ python -m candidate_transformer.cli ^
   --run-date 2026-06-30
 ```
 
+To print the canonical profile with publications included, use the publication-style ATS export:
+
+```bash
+python -m candidate_transformer.cli ^
+  --ats-json sample_data/sample_ats.json ^
+  --run-date 2026-06-30 ^
+  --output outputs/publication_output.json
+```
+
 Write the default output:
 
 ```bash
