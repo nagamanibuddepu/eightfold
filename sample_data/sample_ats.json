@@ -1,0 +1,27 @@
+{
+  "queried_author": "Nagamani Buddepu",
+  "source": "arxiv_author_export",
+  "retrieved": "2026-06-30",
+  "author_metrics": {
+    "publication_count": 1,
+    "h_index": 1
+  },
+  "papers": [
+    {
+      "arxiv_id": "2403.10188",
+      "version": "v2",
+      "title": "Scalable Graph Neural Networks for Student Project Recommendation",
+      "published": "2024-03-15",
+      "authors": [
+        { "name": "Nagamani Buddepu", "affiliation": "IIIT Hyderabad", "orcid": null },
+        { "name": "R. Chandra", "affiliation": "IIIT Hyderabad", "orcid": "0000-0001-5109-3700" },
+        { "name": "S. Venkatesh", "affiliation": "IIIT Hyderabad", "orcid": null }
+      ],
+      "author_position": 1,
+      "categories": ["machine learning", "recommender systems"],
+      "topics": ["graph neural networks", "recommender systems", "data pipelines", "python"],
+      "abstract": "We present a graph-based recommender that matches students to research projects, backed by an incremental data-pipeline for feature ingestion.",
+      "doi": null
+    }
+  ]
+}

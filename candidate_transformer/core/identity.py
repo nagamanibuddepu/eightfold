@@ -18,6 +18,8 @@ def identity_key(profile: SourceProfile) -> str | None:
     phones = profile.fields.get("phones") or []
     if full_name and phones:
         return f"name_phone:{_normalize_name(full_name)}|{phones[0]}"
+    if full_name:
+        return f"name:{_normalize_name(full_name)}"
     return None
 
 

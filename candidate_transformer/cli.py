@@ -23,7 +23,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--config", help="Optional projection config JSON")
     parser.add_argument("--output", help="Optional output JSON path; stdout is used when omitted")
     parser.add_argument("--default-region", default="US", help="Default phone region for local numbers")
+    # parser.add_argument("--sample-ats", help="Default phone region for local numbers")
+
     parser.add_argument("--run-date", default=None, help="Deterministic run date for open-ended experience, YYYY-MM-DD")
+
     return parser
 
 

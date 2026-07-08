@@ -124,3 +124,15 @@ def test_pipeline_deduplicates_experience_education_and_phones(monkeypatch) -> N
     assert infosys["summary"] == "Built data ingestion jobs and internal dashboards."
     assert infosys["start"] == "2026-02"
     assert infosys["end"] == "2026-04"
+
+
+def test_pipeline_surfaces_publications_from_sample_ats_export() -> None:
+    """A publication-style ATS export should be preserved in the canonical output."""
+
+    output = run_pipeline(
+        InputPaths(ats_json="sample_data/sample_ats.json"),
+        run_date=date(2026, 6, 30),
+    )
+    assert output["full_name"] == "Nagamani Buddepu"
+    assert output["publications"][0]["title"].startswith("Scalable Graph Neural Networks")
+    assert output["publications"][0]["arxiv_id"] == "2403.10188"

@@ -21,6 +21,7 @@ CANONICAL_REQUIRED_KEYS = {
     "skills",
     "experience",
     "education",
+    "publications",
     "provenance",
     "overall_confidence",
 }
@@ -82,9 +83,11 @@ def _populated_fields(candidate: dict[str, Any]) -> set[str]:
     for key, value in candidate.items():
         if key == "_issues":
             continue
-        if key in {"location", "links"} and any(item for item in value.values() if item):
-            fields.add(key)
-        elif value not in (None, [], {}, 0.0):
+        if key in {"location", "links"}:
+            if isinstance(value, dict) and any(item for item in value.values() if item):
+                fields.add(key)
+            continue
+        if value not in (None, [], {}, 0.0):
             fields.add(key)
     return fields
 

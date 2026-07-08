@@ -27,6 +27,7 @@ CANONICAL_TEMPLATE = {
     "skills": [],
     "experience": [],
     "education": [],
+    "publications": [],
     "provenance": [],
     "overall_confidence": 0.0,
 }
@@ -72,6 +73,10 @@ def merge_profiles(identity_key: str, profiles: list[SourceProfile], run_date: d
         canonical[field] = values
         canonical["provenance"].extend(provenance)
         field_confidences[field] = confidence
+
+    publications, publication_prov, field_confidences["publications"] = _merge_publications(profiles)
+    canonical["publications"] = publications
+    canonical["provenance"].extend(publication_prov)
 
     canonical["years_experience"] = years_from_experience(canonical["experience"], run_date)
     if canonical["years_experience"] is not None:
@@ -194,6 +199,24 @@ def _merge_dict_array(field: str, profiles: list[SourceProfile]) -> tuple[list[d
     return [merged_by_key[key] for key in key_order], provenance, array_item_confidence(reliabilities)
 
 
+def _merge_publications(profiles: list[SourceProfile]) -> tuple[list[dict[str, Any]], list[dict[str, str]], float]:
+    merged_by_key: dict[tuple[Any, ...], dict[str, Any]] = {}
+    key_order: list[tuple[Any, ...]] = []
+    provenance: list[dict[str, str]] = []
+    reliabilities: list[float] = []
+    for profile in _priority_order(profiles):
+        for item in profile.fields.get("publications", []):
+            semantic_key = _publication_key(item)
+            if semantic_key in merged_by_key:
+                merged_by_key[semantic_key] = _combine_records(merged_by_key[semantic_key], item)
+            else:
+                merged_by_key[semantic_key] = dict(item)
+                key_order.append(semantic_key)
+            provenance.append({"field": "publications", "source": profile.source_id, "method": profile.method})
+            reliabilities.append(profile.reliability)
+    return [merged_by_key[key] for key in key_order], provenance, array_item_confidence(reliabilities)
+
+
 def _experience_key(item: dict[str, Any]) -> tuple[str, str]:
     return (_normalize_match_text(item.get("company")), _normalize_match_text(item.get("title")))
 
@@ -201,6 +224,14 @@ def _experience_key(item: dict[str, Any]) -> tuple[str, str]:
 def _education_key(item: dict[str, Any]) -> tuple[str]:
     institution = _normalize_match_text(item.get("institution"))
     return (institution,) if institution else ()
+
+
+def _publication_key(item: dict[str, Any]) -> tuple[Any, ...]:
+    title = _normalize_match_text(item.get("title"))
+    arxiv_id = item.get("arxiv_id")
+    if arxiv_id:
+        return ("arxiv_id", str(arxiv_id))
+    return ("title", title) if title else tuple((name, item.get(name)) for name in sorted(item))
 
 
 def _normalize_match_text(value: Any) -> str:

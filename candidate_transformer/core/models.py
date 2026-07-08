@@ -44,3 +44,4 @@ class InputPaths:
     resume: str | None = None
     github_url: str | None = None
     github_cache: str | None = None
+    # sample_ats: str | None = None

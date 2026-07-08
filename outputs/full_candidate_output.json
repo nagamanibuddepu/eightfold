@@ -1,0 +1,618 @@
+{
+  "_issues": [],
+  "candidate_id": "452b8f0902dab208",
+  "education": [
+    {
+      "degree": "B.TechinComputerScienceEngineering(DataScience)",
+      "end_year": 2027,
+      "field": "DataScience",
+      "institution": "MLRInstituteofTechnology"
+    }
+  ],
+  "emails": [
+    "mbuddepu0827@gmail.com"
+  ],
+  "experience": [
+    {
+      "company": "Infosys SpringBoard",
+      "end": "2026-04",
+      "start": "2026-02",
+      "summary": "Built data ingestion jobs and internal dashboards.",
+      "title": "AI Intern"
+    },
+    {
+      "company": "Campus Labs",
+      "end": "2024-08",
+      "start": "2024-01",
+      "summary": "Implemented APIs for student project matching.",
+      "title": "Backend Developer"
+    },
+    {
+      "company": "CloudKite",
+      "summary": "Current role from recruiter export",
+      "title": "Software Engineer Intern"
+    }
+  ],
+  "full_name": "Nagamani Buddepu",
+  "headline": "Software Engineer Intern",
+  "links": {
+    "github": "https://github.com/nagamanibuddepu",
+    "linkedin": "linkedin.com/in/nagamani-buddepu-9612611a6",
+    "others": [],
+    "portfolio": "https://portfolio-blue-zeta-31.vercel.app"
+  },
+  "location": {
+    "city": "hyderabad",
+    "country": "IN",
+    "region": "Telangana"
+  },
+  "overall_confidence": 0.953,
+  "phones": [
+    "+919398172938"
+  ],
+  "provenance": [
+    {
+      "field": "education",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "education",
+      "method": "resume_pdf_parse",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "emails",
+      "method": "resume_pdf_parse",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "experience",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "experience",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "experience",
+      "method": "recruiter_csv_row",
+      "source": "recruiter_csv:sample_data/recruiter_export.csv#row1"
+    },
+    {
+      "field": "full_name",
+      "method": "resume_pdf_parse",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "headline",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "links.github",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "links.linkedin",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "links.portfolio",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "location.city",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "location.country",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "location.region",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "phones",
+      "method": "ats_field_mapping",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "phones",
+      "method": "resume_pdf_parse",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.c",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.css",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.data pipeline",
+      "method": "skill_alias",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "skills.datastructures&algorithms",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.dbms",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.docker",
+      "method": "skill_passthrough",
+      "source": "recruiter_notes:sample_data/recruiter_notes.txt"
+    },
+    {
+      "field": "skills.eda",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.fastapi",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.featureengineering",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.git",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.github",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.html",
+      "method": "skill_passthrough",
+      "source": "github:https://github.com/nagamanibuddepu"
+    },
+    {
+      "field": "skills.html",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.java",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.javascript",
+      "method": "skill_passthrough",
+      "source": "github:https://github.com/nagamanibuddepu"
+    },
+    {
+      "field": "skills.javascript",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.jupyter notebook",
+      "method": "skill_passthrough",
+      "source": "github:https://github.com/nagamanibuddepu"
+    },
+    {
+      "field": "skills.lightgbm",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.machine learning",
+      "method": "skill_alias",
+      "source": "recruiter_notes:sample_data/recruiter_notes.txt"
+    },
+    {
+      "field": "skills.matplotlib",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.mongodb",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.mysql",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.node",
+      "method": "skill_alias",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.numpy",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.oop",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.operatingsystems",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.pandas",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.postgres",
+      "method": "skill_alias",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "skills.python",
+      "method": "skill_alias",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "skills.python",
+      "method": "skill_passthrough",
+      "source": "github:https://github.com/nagamanibuddepu"
+    },
+    {
+      "field": "skills.python",
+      "method": "skill_passthrough",
+      "source": "recruiter_notes:sample_data/recruiter_notes.txt"
+    },
+    {
+      "field": "skills.python",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.r",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.randomforest",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.react",
+      "method": "skill_alias",
+      "source": "ats_json:sample_data/ats_candidate.json#1"
+    },
+    {
+      "field": "skills.react",
+      "method": "skill_alias",
+      "source": "recruiter_notes:sample_data/recruiter_notes.txt"
+    },
+    {
+      "field": "skills.react",
+      "method": "skill_alias",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.render",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.scikit-learn",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.sql",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.typescript",
+      "method": "skill_passthrough",
+      "source": "github:https://github.com/nagamanibuddepu"
+    },
+    {
+      "field": "skills.vercel",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "skills.xgboost",
+      "method": "skill_passthrough",
+      "source": "resume:sample_data/resume.pdf"
+    },
+    {
+      "field": "years_experience",
+      "method": "derived_from_experience",
+      "source": "merge"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "confidence": 1.0,
+      "name": "c",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "css",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.85,
+      "name": "data pipeline",
+      "sources": [
+        "ats_json:sample_data/ats_candidate.json#1"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "datastructures&algorithms",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "dbms",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.5,
+      "name": "docker",
+      "sources": [
+        "recruiter_notes:sample_data/recruiter_notes.txt"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "eda",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "fastapi",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "featureengineering",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "git",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "github",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.775,
+      "name": "html",
+      "sources": [
+        "github:https://github.com/nagamanibuddepu",
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "java",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.775,
+      "name": "javascript",
+      "sources": [
+        "github:https://github.com/nagamanibuddepu",
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.4,
+      "name": "jupyter notebook",
+      "sources": [
+        "github:https://github.com/nagamanibuddepu"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "lightgbm",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.5,
+      "name": "machine learning",
+      "sources": [
+        "recruiter_notes:sample_data/recruiter_notes.txt"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "matplotlib",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "mongodb",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "mysql",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "node",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "numpy",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "oop",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "operatingsystems",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "pandas",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.85,
+      "name": "postgres",
+      "sources": [
+        "ats_json:sample_data/ats_candidate.json#1"
+      ]
+    },
+    {
+      "confidence": 0.8,
+      "name": "python",
+      "sources": [
+        "ats_json:sample_data/ats_candidate.json#1",
+        "github:https://github.com/nagamanibuddepu",
+        "recruiter_notes:sample_data/recruiter_notes.txt",
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "r",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "randomforest",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.883,
+      "name": "react",
+      "sources": [
+        "ats_json:sample_data/ats_candidate.json#1",
+        "recruiter_notes:sample_data/recruiter_notes.txt",
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "render",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "scikit-learn",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "sql",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 0.4,
+      "name": "typescript",
+      "sources": [
+        "github:https://github.com/nagamanibuddepu"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "vercel",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "name": "xgboost",
+      "sources": [
+        "resume:sample_data/resume.pdf"
+      ]
+    }
+  ],
+  "years_experience": 0.9
+}
